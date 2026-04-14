@@ -8,7 +8,7 @@
 >https://chromium-review.googlesource.com/c/chromium/src/+/5258257
 -->
 ## What is it?
-BetterPollen is a fork of Pollen (below) that threw away all the extra files, moved the JSON to a seperate file, de-duplicated code, added safety checks, added tty support with semi-interative support too, and made many other changes.
+BetterPollen is a (seemingly currently broken) fork of Pollen (below) that threw away all the extra files, moved the JSON to a seperate file, de-duplicated code, added safety checks, added tty support with semi-interative support too, and made many other changes.
 
 ## What is Pollen?
 Pollen is a user policy editor that takes advantage of how policies are stored. On Linux systems, user policies can be modified by editing the file `/etc/opt/chrome/policies/managed`. ChromeOS works similarly where you can create a file named `Pollen.json` to change existing user policies.
